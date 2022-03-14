@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54B58F196796E7D8EC5DE83B /* Pods_Varisty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D0333ABC96A3C22FBB2C63 /* Pods_Varisty.framework */; };
+		80270E642586597E00F92846 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80270E632586597D00F92846 /* GoogleService-Info.plist */; };
+		80270E66258663CA00F92846 /* UploadCourses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270E65258663CA00F92846 /* UploadCourses.swift */; };
+		805ABD53256990D200E65091 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805ABD52256990D200E65091 /* SignUpPage.swift */; };
+		805ABD58256990F900E65091 /* Loginpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805ABD57256990F900E65091 /* Loginpage.swift */; };
+		805ABD61256F360400E65091 /* UniversityChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805ABD60256F360400E65091 /* UniversityChoice.swift */; };
+		805ABD66256F3FD000E65091 /* CourseChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805ABD65256F3FD000E65091 /* CourseChoice.swift */; };
+		805ABD6B256FC4B100E65091 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805ABD6A256FC4B100E65091 /* CropViewController.swift */; };
+		806F51F2255A0DC800932066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806F51F1255A0DC800932066 /* AppDelegate.swift */; };
+		806F51F4255A0DC800932066 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806F51F3255A0DC800932066 /* SceneDelegate.swift */; };
+		806F51F9255A0DC800932066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806F51F7255A0DC800932066 /* Main.storyboard */; };
+		806F51FB255A0DCA00932066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806F51FA255A0DCA00932066 /* Assets.xcassets */; };
+		806F51FE255A0DCA00932066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806F51FC255A0DCA00932066 /* LaunchScreen.storyboard */; };
+		806F5209255A0DCA00932066 /* VaristyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806F5208255A0DCA00932066 /* VaristyTests.swift */; };
+		806F5214255A0DCA00932066 /* VaristyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806F5213255A0DCA00932066 /* VaristyUITests.swift */; };
+		806F5225255A0EF800932066 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806F5224255A0EF800932066 /* TabBarController.swift */; };
+		806F522A255A0F2F00932066 /* HomeFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806F5229255A0F2F00932066 /* HomeFeed.swift */; };
+		806F522F255A0FE900932066 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806F522E255A0FE900932066 /* Search.swift */; };
+		806F5234255A100000932066 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806F5233255A100000932066 /* Activity.swift */; };
+		806F5239255A101D00932066 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806F5238255A101D00932066 /* Profile.swift */; };
+		806F523E255A103900932066 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806F523D255A103900932066 /* Post.swift */; };
+		806F524C255B530600932066 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806F524B255B530600932066 /* LandingPage.swift */; };
+		80BE9C32259267C300FBE35D /* userInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9C31259267C300FBE35D /* userInfo.swift */; };
+		80BE9C3425928A1200FBE35D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE9C3325928A1200FBE35D /* PostCell.swift */; };
+		8C16677DD3B80D383FCF8698 /* Pods_Varisty_VaristyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AE87E91CAB045D07674086 /* Pods_Varisty_VaristyUITests.framework */; };
+		B4ED266C947AF214C4EB4D35 /* Pods_VaristyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BE79D7B030F01B9B39D759 /* Pods_VaristyTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		806F5205255A0DCA00932066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 806F51E6255A0DC700932066 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806F51ED255A0DC700932066;
+			remoteInfo = Varisty;
+		};
+		806F5210255A0DCA00932066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 806F51E6255A0DC700932066 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806F51ED255A0DC700932066;
+			remoteInfo = Varisty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05AE87E91CAB045D07674086 /* Pods_Varisty_VaristyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Varisty_VaristyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3D9665298F16609254982C /* Pods-Varisty-VaristyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Varisty-VaristyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Varisty-VaristyUITests/Pods-Varisty-VaristyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FE5902882C1646E60ADBE85 /* Pods-VaristyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaristyTests.debug.xcconfig"; path = "Target Support Files/Pods-VaristyTests/Pods-VaristyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A25A04BEDA541CF4DE1E187 /* Pods-Varisty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Varisty.release.xcconfig"; path = "Target Support Files/Pods-Varisty/Pods-Varisty.release.xcconfig"; sourceTree = "<group>"; };
+		6541160E33237FDC6ACB923A /* Pods-Varisty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Varisty.debug.xcconfig"; path = "Target Support Files/Pods-Varisty/Pods-Varisty.debug.xcconfig"; sourceTree = "<group>"; };
+		717E1D46745224715296326A /* Pods-Varisty-VaristyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Varisty-VaristyUITests.release.xcconfig"; path = "Target Support Files/Pods-Varisty-VaristyUITests/Pods-Varisty-VaristyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80270E632586597D00F92846 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		80270E65258663CA00F92846 /* UploadCourses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCourses.swift; sourceTree = "<group>"; };
+		805ABD52256990D200E65091 /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
+		805ABD57256990F900E65091 /* Loginpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loginpage.swift; sourceTree = "<group>"; };
+		805ABD60256F360400E65091 /* UniversityChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityChoice.swift; sourceTree = "<group>"; };
+		805ABD65256F3FD000E65091 /* CourseChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseChoice.swift; sourceTree = "<group>"; };
+		805ABD6A256FC4B100E65091 /* CropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
+		806F51EE255A0DC800932066 /* Varisty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Varisty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		806F51F1255A0DC800932066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		806F51F3255A0DC800932066 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		806F51F8255A0DC800932066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		806F51FA255A0DCA00932066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		806F51FD255A0DCA00932066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		806F51FF255A0DCA00932066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806F5204255A0DCA00932066 /* VaristyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaristyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		806F5208255A0DCA00932066 /* VaristyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaristyTests.swift; sourceTree = "<group>"; };
+		806F520A255A0DCA00932066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806F520F255A0DCA00932066 /* VaristyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaristyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		806F5213255A0DCA00932066 /* VaristyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaristyUITests.swift; sourceTree = "<group>"; };
+		806F5215255A0DCA00932066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806F5224255A0EF800932066 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		806F5229255A0F2F00932066 /* HomeFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeed.swift; sourceTree = "<group>"; };
+		806F522E255A0FE900932066 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		806F5233255A100000932066 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		806F5238255A101D00932066 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		806F523D255A103900932066 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		806F524B255B530600932066 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		80BE9C31259267C300FBE35D /* userInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userInfo.swift; sourceTree = "<group>"; };
+		80BE9C3325928A1200FBE35D /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		94D0333ABC96A3C22FBB2C63 /* Pods_Varisty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Varisty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E4ECE863D2077E68932472 /* Pods-VaristyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaristyTests.release.xcconfig"; path = "Target Support Files/Pods-VaristyTests/Pods-VaristyTests.release.xcconfig"; sourceTree = "<group>"; };
+		C4BE79D7B030F01B9B39D759 /* Pods_VaristyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VaristyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		806F51EB255A0DC700932066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B58F196796E7D8EC5DE83B /* Pods_Varisty.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806F5201255A0DCA00932066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4ED266C947AF214C4EB4D35 /* Pods_VaristyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806F520C255A0DCA00932066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C16677DD3B80D383FCF8698 /* Pods_Varisty_VaristyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		805ABD6F256FC4B500E65091 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				805ABD6A256FC4B100E65091 /* CropViewController.swift */,
+				80270E65258663CA00F92846 /* UploadCourses.swift */,
+				80BE9C31259267C300FBE35D /* userInfo.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		806F51E5255A0DC700932066 = {
+			isa = PBXGroup;
+			children = (
+				806F51F0255A0DC800932066 /* Varisty */,
+				806F5207255A0DCA00932066 /* VaristyTests */,
+				806F5212255A0DCA00932066 /* VaristyUITests */,
+				806F51EF255A0DC800932066 /* Products */,
+				B8D309748D15A3914722B8B8 /* Pods */,
+				D7B86FDE7A88E46C2F1FECAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		806F51EF255A0DC800932066 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				806F51EE255A0DC800932066 /* Varisty.app */,
+				806F5204255A0DCA00932066 /* VaristyTests.xctest */,
+				806F520F255A0DCA00932066 /* VaristyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		806F51F0255A0DC800932066 /* Varisty */ = {
+			isa = PBXGroup;
+			children = (
+				80270E632586597D00F92846 /* GoogleService-Info.plist */,
+				806F51F1255A0DC800932066 /* AppDelegate.swift */,
+				806F51F3255A0DC800932066 /* SceneDelegate.swift */,
+				806F5224255A0EF800932066 /* TabBarController.swift */,
+				806F51F7255A0DC800932066 /* Main.storyboard */,
+				806F51FA255A0DCA00932066 /* Assets.xcassets */,
+				806F51FC255A0DCA00932066 /* LaunchScreen.storyboard */,
+				806F51FF255A0DCA00932066 /* Info.plist */,
+				805ABD6F256FC4B500E65091 /* Services */,
+				806F524A255B52F100932066 /* LoginFlow */,
+				806F5246255B357F00932066 /* Activity */,
+				806F5245255B357900932066 /* Post */,
+				806F5244255B357400932066 /* Profile */,
+				806F5243255B357000932066 /* Home */,
+				806F5242255B356400932066 /* Search */,
+			);
+			path = Varisty;
+			sourceTree = "<group>";
+		};
+		806F5207255A0DCA00932066 /* VaristyTests */ = {
+			isa = PBXGroup;
+			children = (
+				806F5208255A0DCA00932066 /* VaristyTests.swift */,
+				806F520A255A0DCA00932066 /* Info.plist */,
+			);
+			path = VaristyTests;
+			sourceTree = "<group>";
+		};
+		806F5212255A0DCA00932066 /* VaristyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				806F5213255A0DCA00932066 /* VaristyUITests.swift */,
+				806F5215255A0DCA00932066 /* Info.plist */,
+			);
+			path = VaristyUITests;
+			sourceTree = "<group>";
+		};
+		806F5242255B356400932066 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				806F522E255A0FE900932066 /* Search.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		806F5243255B357000932066 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				806F5229255A0F2F00932066 /* HomeFeed.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		806F5244255B357400932066 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				806F5238255A101D00932066 /* Profile.swift */,
+				80BE9C3325928A1200FBE35D /* PostCell.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		806F5245255B357900932066 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				806F523D255A103900932066 /* Post.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		806F5246255B357F00932066 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				806F5233255A100000932066 /* Activity.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		806F524A255B52F100932066 /* LoginFlow */ = {
+			isa = PBXGroup;
+			children = (
+				806F524B255B530600932066 /* LandingPage.swift */,
+				805ABD52256990D200E65091 /* SignUpPage.swift */,
+				805ABD60256F360400E65091 /* UniversityChoice.swift */,
+				805ABD65256F3FD000E65091 /* CourseChoice.swift */,
+				805ABD57256990F900E65091 /* Loginpage.swift */,
+			);
+			path = LoginFlow;
+			sourceTree = "<group>";
+		};
+		B8D309748D15A3914722B8B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6541160E33237FDC6ACB923A /* Pods-Varisty.debug.xcconfig */,
+				3A25A04BEDA541CF4DE1E187 /* Pods-Varisty.release.xcconfig */,
+				0F3D9665298F16609254982C /* Pods-Varisty-VaristyUITests.debug.xcconfig */,
+				717E1D46745224715296326A /* Pods-Varisty-VaristyUITests.release.xcconfig */,
+				0FE5902882C1646E60ADBE85 /* Pods-VaristyTests.debug.xcconfig */,
+				B4E4ECE863D2077E68932472 /* Pods-VaristyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7B86FDE7A88E46C2F1FECAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94D0333ABC96A3C22FBB2C63 /* Pods_Varisty.framework */,
+				05AE87E91CAB045D07674086 /* Pods_Varisty_VaristyUITests.framework */,
+				C4BE79D7B030F01B9B39D759 /* Pods_VaristyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		806F51ED255A0DC700932066 /* Varisty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806F5218255A0DCA00932066 /* Build configuration list for PBXNativeTarget "Varisty" */;
+			buildPhases = (
+				E29D1BAEB8985A0707204E2E /* [CP] Check Pods Manifest.lock */,
+				806F51EA255A0DC700932066 /* Sources */,
+				806F51EB255A0DC700932066 /* Frameworks */,
+				806F51EC255A0DC700932066 /* Resources */,
+				325CB507806F18E02F90F9EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Varisty;
+			productName = Varisty;
+			productReference = 806F51EE255A0DC800932066 /* Varisty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		806F5203255A0DCA00932066 /* VaristyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806F521B255A0DCA00932066 /* Build configuration list for PBXNativeTarget "VaristyTests" */;
+			buildPhases = (
+				7EB714462B07CF4971995A48 /* [CP] Check Pods Manifest.lock */,
+				806F5200255A0DCA00932066 /* Sources */,
+				806F5201255A0DCA00932066 /* Frameworks */,
+				806F5202255A0DCA00932066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806F5206255A0DCA00932066 /* PBXTargetDependency */,
+			);
+			name = VaristyTests;
+			productName = VaristyTests;
+			productReference = 806F5204255A0DCA00932066 /* VaristyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		806F520E255A0DCA00932066 /* VaristyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806F521E255A0DCA00932066 /* Build configuration list for PBXNativeTarget "VaristyUITests" */;
+			buildPhases = (
+				3E8171FB1A9DA8C48807762A /* [CP] Check Pods Manifest.lock */,
+				806F520B255A0DCA00932066 /* Sources */,
+				806F520C255A0DCA00932066 /* Frameworks */,
+				806F520D255A0DCA00932066 /* Resources */,
+				C8F24ADF1FA05AB919987BAA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806F5211255A0DCA00932066 /* PBXTargetDependency */,
+			);
+			name = VaristyUITests;
+			productName = VaristyUITests;
+			productReference = 806F520F255A0DCA00932066 /* VaristyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		806F51E6255A0DC700932066 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					806F51ED255A0DC700932066 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					806F5203255A0DCA00932066 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 806F51ED255A0DC700932066;
+					};
+					806F520E255A0DCA00932066 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 806F51ED255A0DC700932066;
+					};
+				};
+			};
+			buildConfigurationList = 806F51E9255A0DC700932066 /* Build configuration list for PBXProject "Varisty" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 806F51E5255A0DC700932066;
+			productRefGroup = 806F51EF255A0DC800932066 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				806F51ED255A0DC700932066 /* Varisty */,
+				806F5203255A0DCA00932066 /* VaristyTests */,
+				806F520E255A0DCA00932066 /* VaristyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		806F51EC255A0DC700932066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806F51FE255A0DCA00932066 /* LaunchScreen.storyboard in Resources */,
+				80270E642586597E00F92846 /* GoogleService-Info.plist in Resources */,
+				806F51FB255A0DCA00932066 /* Assets.xcassets in Resources */,
+				806F51F9255A0DC800932066 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806F5202255A0DCA00932066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806F520D255A0DCA00932066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		325CB507806F18E02F90F9EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Varisty/Pods-Varisty-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Varisty/Pods-Varisty-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Varisty/Pods-Varisty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E8171FB1A9DA8C48807762A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Varisty-VaristyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EB714462B07CF4971995A48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VaristyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8F24ADF1FA05AB919987BAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Varisty-VaristyUITests/Pods-Varisty-VaristyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Varisty-VaristyUITests/Pods-Varisty-VaristyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Varisty-VaristyUITests/Pods-Varisty-VaristyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E29D1BAEB8985A0707204E2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Varisty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		806F51EA255A0DC700932066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BE9C3425928A1200FBE35D /* PostCell.swift in Sources */,
+				805ABD53256990D200E65091 /* SignUpPage.swift in Sources */,
+				806F5239255A101D00932066 /* Profile.swift in Sources */,
+				805ABD61256F360400E65091 /* UniversityChoice.swift in Sources */,
+				806F5225255A0EF800932066 /* TabBarController.swift in Sources */,
+				80BE9C32259267C300FBE35D /* userInfo.swift in Sources */,
+				805ABD58256990F900E65091 /* Loginpage.swift in Sources */,
+				806F5234255A100000932066 /* Activity.swift in Sources */,
+				805ABD6B256FC4B100E65091 /* CropViewController.swift in Sources */,
+				806F51F2255A0DC800932066 /* AppDelegate.swift in Sources */,
+				806F522F255A0FE900932066 /* Search.swift in Sources */,
+				80270E66258663CA00F92846 /* UploadCourses.swift in Sources */,
+				806F524C255B530600932066 /* LandingPage.swift in Sources */,
+				806F523E255A103900932066 /* Post.swift in Sources */,
+				805ABD66256F3FD000E65091 /* CourseChoice.swift in Sources */,
+				806F522A255A0F2F00932066 /* HomeFeed.swift in Sources */,
+				806F51F4255A0DC800932066 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806F5200255A0DCA00932066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806F5209255A0DCA00932066 /* VaristyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806F520B255A0DCA00932066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806F5214255A0DCA00932066 /* VaristyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		806F5206255A0DCA00932066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806F51ED255A0DC700932066 /* Varisty */;
+			targetProxy = 806F5205255A0DCA00932066 /* PBXContainerItemProxy */;
+		};
+		806F5211255A0DCA00932066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806F51ED255A0DC700932066 /* Varisty */;
+			targetProxy = 806F5210255A0DCA00932066 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		806F51F7255A0DC800932066 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806F51F8255A0DC800932066 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		806F51FC255A0DCA00932066 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806F51FD255A0DCA00932066 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		806F5216255A0DCA00932066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		806F5217255A0DCA00932066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		806F5219255A0DCA00932066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6541160E33237FDC6ACB923A /* Pods-Varisty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEA5XWCYV3;
+				INFOPLIST_FILE = Varisty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.christian.Varisty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		806F521A255A0DCA00932066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A25A04BEDA541CF4DE1E187 /* Pods-Varisty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEA5XWCYV3;
+				INFOPLIST_FILE = Varisty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.christian.Varisty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		806F521C255A0DCA00932066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FE5902882C1646E60ADBE85 /* Pods-VaristyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEA5XWCYV3;
+				INFOPLIST_FILE = VaristyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.christian.VaristyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Varisty.app/Varisty";
+			};
+			name = Debug;
+		};
+		806F521D255A0DCA00932066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4E4ECE863D2077E68932472 /* Pods-VaristyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEA5XWCYV3;
+				INFOPLIST_FILE = VaristyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.christian.VaristyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Varisty.app/Varisty";
+			};
+			name = Release;
+		};
+		806F521F255A0DCA00932066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3D9665298F16609254982C /* Pods-Varisty-VaristyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEA5XWCYV3;
+				INFOPLIST_FILE = VaristyUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.christian.VaristyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Varisty;
+			};
+			name = Debug;
+		};
+		806F5220255A0DCA00932066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 717E1D46745224715296326A /* Pods-Varisty-VaristyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEA5XWCYV3;
+				INFOPLIST_FILE = VaristyUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.christian.VaristyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Varisty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		806F51E9255A0DC700932066 /* Build configuration list for PBXProject "Varisty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806F5216255A0DCA00932066 /* Debug */,
+				806F5217255A0DCA00932066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806F5218255A0DCA00932066 /* Build configuration list for PBXNativeTarget "Varisty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806F5219255A0DCA00932066 /* Debug */,
+				806F521A255A0DCA00932066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806F521B255A0DCA00932066 /* Build configuration list for PBXNativeTarget "VaristyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806F521C255A0DCA00932066 /* Debug */,
+				806F521D255A0DCA00932066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806F521E255A0DCA00932066 /* Build configuration list for PBXNativeTarget "VaristyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806F521F255A0DCA00932066 /* Debug */,
+				806F5220255A0DCA00932066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 806F51E6255A0DC700932066 /* Project object */;
+}

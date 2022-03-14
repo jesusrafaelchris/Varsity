@@ -1,0 +1,6 @@
+framework module Pods_Varisty_VaristyUITests {
+  umbrella header "Pods-Varisty-VaristyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
